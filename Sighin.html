@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign In</title>
+  <style>
+        * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+          }
+
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(229, 229, 182);
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container {
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+      }
+      .card {
+        background-color: #121212;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        text-align: center;
+      }
+      .card h1 {
+        color: white;
+        margin-bottom: 10px;
+        font-size: 28px;
+      }
+      .card p {
+        margin-bottom: 20px;
+        color: #dcd0d0;
+      }
+      .form input {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 15px;
+        border: none;
+        border-radius: 8px;
+        background-color: #2a2a2a;
+        color: white;
+      }
+      .form button {
+        
+        width: 100%;
+        padding: 12px;
+        background-color: #1db954;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        
+      }
+      .form button:hover {
+        background-color: #17a44d;
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1 >Welcome to 'The' Playlist</h1>
+      <p>For The Unique's</p>
+
+      <form class="form" action="hello.html">
+        <input type="email" placeholder="Email"  />
+        <input type="password" placeholder="Password"  />
+        <a href="hello.html"><button type="button">Sign In</button></a>
+      </form>
+      
+      <br>
+
+     
+    </div>
+  </div>
+</body>
+</html>
